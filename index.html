@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log-in</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Smart Login System</h1>
+      </div>
+
+      <div class="login-form-group">
+        <input type="text" placeholder="Enter your name" id="name" hidden />
+        <br />
+        <input type="email" placeholder="Enter your email" id="email" />
+        <br />
+        <input
+          type="password"
+          placeholder="Enter your password"
+          id="password"
+        />
+        <br />
+        <button id="sign-up-btn" hidden>Sign Up</button>
+        <button id="login-btn">Login</button>
+
+        <div class="sign-up-qoute">
+          <p>don't have an account?</p>
+          <a href="">Sign Up</a>
+        </div>
+        
+        <div class="login-qoute" hidden>
+          <p>you have an account?</p>
+          <a href="">Sign in</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(5, 47, 47);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  background-color: rgb(5, 47, 47);
+  box-shadow: rgba(0, 0, 0, 1) 0px 7px 29px 0px;
+  width: 30%;
+}
+
+.header h1 {
+  padding-top: 15px;
+  color: rgb(43, 119, 119);
+}
+.login-form-group input {
+  margin-bottom: 12px;
+}
+
+button {
+  background-color:rgb(28, 28, 28);
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.sign-up-qoute {
+  color: white;
+  padding-bottom: 12px;
+  a{
+    text-decoration: none;
+    color: white;
+  }
+}
+.login-qoute {
+  padding-bottom: 12px;
+  color: white;
+  a{
+    text-decoration: none;
+    color: white;
+  }
+}
